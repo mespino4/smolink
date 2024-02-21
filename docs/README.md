@@ -98,14 +98,17 @@ To shorten a URL, follow these steps:
 ## Screenshots
 
 ![Homepage](screenshots/ss1.png)
+
 *Homepage of the Smolink application*
 
 ![Shorten URL](screenshots/ss2.png)
+
 *Shorten a URL with Smolink*
 
 ## Demo
 
 ![Demo](smolink_demo.gif)
+
 *A demonstration of how Smolink works.*
 
 ## License
