@@ -1,5 +1,5 @@
-from models import db
-from routes import app
+from app import app
+from app.models import db
 from flask_cors import CORS
 
 # Configuration
