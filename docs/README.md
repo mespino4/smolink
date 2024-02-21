@@ -1,8 +1,7 @@
 ![Smolink Logo](../react-client/public/smolink.png)
 
 # Smolink: A URL Shortener
-
-Smolink is a lightweight and user-friendly URL shortener application built with React, Flask and SQLite.
+Born from the fusion of the words 'smol' and 'link. Smolink is URL shortening tool, crafted with a sleek and easy to use interface. Its clean UI was designed to reflect how it transforms ugly, long and cluttered URLs into URLs that are short, clean and visually appealing.
 
 ## Table of Contents
 
