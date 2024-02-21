@@ -2,7 +2,7 @@
 
 # Smolink: A URL Shortener
 
-Smolink is a simple URL shortener application built with Flask (backend) and React (frontend).
+Smolink is a lightweight and user-friendly URL shortener application built with React, Flask and SQLite.
 
 ## Table of Contents
 
@@ -13,13 +13,14 @@ Smolink is a simple URL shortener application built with Flask (backend) and Rea
   - [Client Installation](#client-installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
+- [Demo](#demo)
 - [License](#license)
 
 ## Features
 
 - Shorten long URLs into short, easy-to-share links
 - Simple minimalistic user interface
-- Copy button to save you a couple of seconds of work
+- Copy button for easy sharing
 
 ## Tech Stack
 
@@ -41,16 +42,22 @@ To install and run the Smolink server (Flask) locally, follow these steps:
 2. Navigate to the `flask-server` directory:
 
     ```
-    cd flask-server
+    cd smolink/flask-server
     ```
 
-3. Install dependencies:
+3. Activate the Python virtual environment:
+
+    ```
+    source venv/bin/activate
+    ```
+
+4. Install dependencies:
 
     ```
     pip install -r requirements.txt
     ```
 
-4. Run the Flask server:
+5. Run the Flask server:
 
     ```
     python run.py
@@ -63,7 +70,7 @@ To install and run the Smolink client (React) locally, follow these steps:
 1. In a second terminal navigate to the `react-client` directory:
 
     ```
-    cd react-client
+    cd smolink/react-client
     ```
 
 2. Install dependencies:
@@ -91,14 +98,16 @@ To shorten a URL, follow these steps:
 
 ## Screenshots
 
-![Screenshot 1](screenshots/ss1.png)
-*This is the application on startup*
+![Homepage](screenshots/homepage.png)
+*Homepage of the Smolink application*
 
-![Screenshot 2](screenshots/ss2.png)
-*paste a long URL, click the Shorten button and a short URL will be generated*
+![Shorten URL](screenshots/shorten-url.png)
+*Shorten a URL with Smolink*
 
 ## Demo
-![Screenshot 2](smolink_demo.gif)
+
+![Demo](smolink_demo.gif)
+*A demonstration of how Smolink works.*
 
 ## License
 
