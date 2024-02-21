@@ -98,10 +98,10 @@ To shorten a URL, follow these steps:
 
 ## Screenshots
 
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/ss1.png)
 *Homepage of the Smolink application*
 
-![Shorten URL](screenshots/shorten-url.png)
+![Shorten URL](screenshots/ss2.png)
 *Shorten a URL with Smolink*
 
 ## Demo
