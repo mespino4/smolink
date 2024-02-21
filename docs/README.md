@@ -97,6 +97,9 @@ To shorten a URL, follow these steps:
 ![Screenshot 2](screenshots/ss2.png)
 *paste a long URL, click the Shorten button and a short URL will be generated*
 
+## Demo
+![Screenshot 2](smolink_demo.gif)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
