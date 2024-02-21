@@ -60,7 +60,7 @@ To install and run the Smolink server (Flask) locally, follow these steps:
 
 To install and run the Smolink client (React) locally, follow these steps:
 
-1. Navigate to the `react-client` directory:
+1. In a second terminal navigate to the `react-client` directory:
 
     ```
     cd react-client
