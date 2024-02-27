@@ -1,2 +1,0 @@
-web: PORT=4000 npm start --prefix react-client
-api: python -b 127.0.0.1:5555 --chdir ./flask-server app:run
