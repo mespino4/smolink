@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "undefined/subscriptions/862569a5-2b65-4d1f-b02a-6b42a834a7b7/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/smolink",
-    "appService.deploySubpath": "."
+    "appService.defaultWebAppToDeploy": "/subscriptions/862569a5-2b65-4d1f-b02a-6b42a834a7b7/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/smolink",
+    "appService.deploySubpath": "deployment"
 }
