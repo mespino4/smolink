@@ -25,6 +25,7 @@ Born from the fusion of the words 'smol' and 'link. Smolink is URL shortening to
 
 - **Backend**: Flask & SQLite
 - **Frontend**: React
+- **Containerization**: Docker
 
 ## Installation
 
