@@ -23,7 +23,7 @@ Born from the fusion of the words 'smol' and 'link. Smolink is URL shortening to
 
 ## Tech Stack
 
-- **Backend**: Flask & SQLite
+- **Backend**: Flask & PostgresSQL
 - **Frontend**: React
 - **Containerization**: Docker
 
