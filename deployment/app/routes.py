@@ -1,9 +1,10 @@
 from flask import Flask, jsonify, request, redirect
-from models import Urls, db
+from app.models import Urls, db
 import random
 import string
 
-app = Flask(__name__)
+#app = Flask(__name__)
+app = Flask(__name__, static_folder="../dist", static_url_path='/')
 
 def shorten_url():
     letters = string.ascii_lowercase + string.ascii_uppercase
@@ -43,3 +44,7 @@ def redirection(short_url):
         return redirect(long_url.long)
     else:
         return jsonify({"error": "Url doesn't exist"})
+    
+@app.route('/')
+def index(): return app.send_static_file('index.html')
+#def route_default(): return 'Welcome to the smolink'

@@ -10,11 +10,11 @@ function App() {
 
   const shortenUrl = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/shorten', { nm: originalUrl });
+      const response = await axios.post('http://127.0.0.1:8000/shorten', { nm: originalUrl });
       
       if (response.data.short_url) {
         //setShortenedUrl("https://smolink/" + response.data.short_url);
-        setShortenedUrl("http://localhost:5000/" + response.data.short_url);
+        setShortenedUrl("http://127.0.0.1:8000/" + response.data.short_url);
       } else {
         console.error('Failed to shorten URL');
       }
