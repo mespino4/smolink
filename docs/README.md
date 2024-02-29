@@ -45,13 +45,26 @@ To install and run the Smolink server (Flask) locally, follow these steps:
     cd smolink/flask-server
     ```
 
-3. Activate the Python virtual environment:
-
+3. Create a Python virtual environment:
+   Windows
     ```
-    source venv/bin/activate
+    python -m venv <env_name>
+    ```
+  Linux
+    ```
+    python3 -m venv <env_name>
+    ```
+4. Activate the Python virtual environment:
+   Windows
+    ```
+    <env_name>\Scripts\activate
+    ```
+  Linux
+    ```
+    source <env_name>/bin/activate
     ```
 
-4. Install dependencies:
+5. Install dependencies:
 
     ```
     pip install -r requirements.txt
@@ -59,8 +72,13 @@ To install and run the Smolink server (Flask) locally, follow these steps:
 
 5. Run the Flask server:
 
+   Windows
     ```
     python run.py
+    ```
+  Linux
+    ```
+    python3 run.py
     ```
 
 ### Client Installation
