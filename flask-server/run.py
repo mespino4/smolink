@@ -4,7 +4,7 @@ from flask_cors import CORS
 
 # Configuration
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///smolink.db'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:213194@localhost:5432/smolink'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:admin@localhost:5432/smolink'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
@@ -21,4 +21,3 @@ CORS(app, origins=["http://localhost:5173"])
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=8000)
     #app.run(port=5000, debug=True)
-    
